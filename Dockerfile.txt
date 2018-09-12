@@ -1,6 +1,6 @@
 
 # Base image
-FROM python:3.6
+FROM python:3.5
 
 # Updating repository sources
 RUN apt-get update
@@ -15,5 +15,4 @@ RUN pip install --no-cache -r requirements.txt
 EXPOSE 8888
 
 # Running jupyter notebook
-# --NotebookApp.token ='demo' is the password
 CMD ["jupyter", "notebook", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
