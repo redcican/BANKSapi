@@ -1,5 +1,6 @@
-# BANKSapi
-The repository is for the BANKSapi Project.  
+# MachineLearning NLP Project
+
+The repository is for the Machine Learning NLP Project.  
 
 You can download the notebooks and model weights from [this link](https://drive.google.com/file/d/1TNdNkg4LLA8ZXgh5ooUMICpC7uO3GbMe/view)
 
